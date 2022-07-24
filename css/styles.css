@@ -600,7 +600,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  margin-right: 12px;
+  margin-right: 10px;
   padding-left: 16px;
   color: var(--primary-white-color);
 }
@@ -785,7 +785,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  height: 581px;
+  min-height: 581px;
   padding: 40px;
   background-color: var(--primary-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -820,7 +820,7 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -837,8 +837,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
-  /* identical to box height */
+  line-height: 1.17;
 
   letter-spacing: 0.01em;
 
@@ -898,7 +897,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
@@ -912,7 +911,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 
   letter-spacing: 0.03em;
   color: #757575;
@@ -945,7 +944,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
